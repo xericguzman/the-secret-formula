@@ -41,7 +41,7 @@ When the user submits the form, display an alert with the created user's usernam
 
 ### Beautify your forms
 
-Go wild with CSS, make your forms look good!
+Go wild with CSS, make your forms look good! Check out some inspiration here: https://uicookies.com/beautiful-css-forms/
 
 ### Create Account Validation
 
