@@ -39,6 +39,10 @@ When the user submits the form, display an alert with the created user's usernam
 
 ## Stretch goals
 
+### Beautify your forms
+
+Go wild with CSS, make your forms look good!
+
 ### Create Account Validation
 
 Add validation to your Create Account form. When the user submits the form, ensure that their username is at least three characters, their email contains an @ symbol, their password is at least four characters, and that their 'password' and 'confirm password' values match. If any of these are not true, alert an error instead of a success message.
