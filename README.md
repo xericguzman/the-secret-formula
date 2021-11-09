@@ -19,3 +19,30 @@ Below your previous form, create another new form. This form will represent a ha
 * a text input to allow the user to request a specific hair cutter
 * one set of two radio inputs that allows the user to select whether they have long or short hair
 * a submit button
+
+Additionally, make sure to add proper labels for each input.
+
+When the user submits the form, display an alert with a message with the following structure: "Haircut scheduled for [DATE] with [HAIRCUTTER] for [LONG/SHORT] hair."
+
+## Part 4: Create account
+
+Finally, create one more form that represents a "create account" form. This form should have the following inputs:
+* a text input for the user's desired username
+* an email input for the user's email
+* a password input for the user's password
+* a confirm password input that makes the user type their password a second time to confirm it
+* a submit button
+
+Once again, make sure to add proper labels for your inputs.
+
+When the user submits the form, display an alert with the created user's username and email. As a habit of good security, don't display the user's password.
+
+## Stretch goals
+
+### Create Account Validation
+
+Add validation to your Create Account form. When the user submits the form, ensure that their username is at least three characters, their email contains an @ symbol, their password is at least four characters, and that their 'password' and 'confirm password' values match. If any of these are not true, alert an error instead of a success message.
+
+### User Login
+
+Add one more form below your Create Account form for user login. This form should contain a username and a password input. When the user submits the form, determine whether the user has previously created an account that matches the given username and password. If so, log a success message. If not, log an error. To do this, you'll need to modify your Create Account form functionality to store the created accounts.
