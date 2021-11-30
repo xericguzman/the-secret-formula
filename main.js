@@ -1,6 +1,7 @@
 const alerterForm = document.querySelector("#alerter-form");
 const alerterText = document.querySelector("#alerter-text");
 const sandwichForm = document.querySelector("#sandwich-form");
+const createAccount = document.querySelector("#create-account");
 
 alerterForm.addEventListener("submit", function (event) {
   event.preventDefault();
@@ -34,5 +35,22 @@ haircutForm.addEventListener("submit", function (event) {
   } else if (haircutShort.checked) {
     str += "short hair.";
   }
+  alert(str);
+});
+
+const usernameText = document.querySelector("#username-text");
+const emailText = document.querySelector("#email-text");
+const passwordText = document.querySelector("#password-text");
+const confirmPasswordText = document.querySelector("#confirmpassword-text");
+
+createAccount.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  let str =
+    "Thank you for registering " +
+    usernameText.value +
+    " with e-mail address: " +
+    emailText.value +
+    " .";
   alert(str);
 });
